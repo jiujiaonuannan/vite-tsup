@@ -1,0 +1,34 @@
+{
+  "name": "vite-tsup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+	"type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "imports": {
+    "#dep": {
+      "node": "lodash-es"
+    }
+  },
+  "exports": {
+    ".": "./index.js",
+    "./foo": "./foo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiujiaonuannan/vite-tsup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiujiaonuannan/vite-tsup/issues"
+  },
+  "homepage": "https://github.com/jiujiaonuannan/vite-tsup#readme",
+  "dependencies": {
+    "lodash-es": "^4.17.21",
+    "react": "^18.1.0"
+  }
+}
